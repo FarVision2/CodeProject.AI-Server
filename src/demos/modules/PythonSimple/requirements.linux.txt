@@ -5,7 +5,7 @@
 
 # We'll lock down to Torch 1.X, CPU-only to play it safe
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==1.13.1+cpu               # Installing Torch, for Tensor computation and Deep neural networks
+torch==2.4.0               # Installing Torch, for Tensor computation and Deep neural networks
 --extra-index-url https://download.pytorch.org/whl/cpu
 torchvision==0.14.1+cpu         # Installing TorchVision, for Computer Vision based AI
 
