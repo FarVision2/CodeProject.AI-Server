@@ -53,7 +53,7 @@
 		<!-- Common packages required on all GPU types -->
 		<PackageReference Include="CodeProject.AI.Module.SDK" Version="1.0.1" />
 		<PackageReference Include="Yolov8.Net" Version="1.1.4" />
-		<PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
+		<PackageReference Include="SixLabors.ImageSharp" Version="3.1.11" />
 		<PackageReference Include="SkiaSharp" Version="2.88.6" />
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
 
@@ -94,6 +94,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
+
+	  <PackageReference Include="System.Text.Json" Version="8.0.5" />
 	  <None Update="explore.html">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
